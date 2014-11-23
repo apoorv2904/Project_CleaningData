@@ -71,7 +71,7 @@ x <- rbind(x_train,x_test)
 <br/>Removing unnecessary characters from the features names to create descriptive names<br/>
 ```{r}
 fenames <- as.character(features[,2])
-fenames<-chartr("(),-", "____", fenames)
+fenames<-chartr("()", "___", fenames)
 fenames<-gsub("_", "", fenames)
 ```
 
