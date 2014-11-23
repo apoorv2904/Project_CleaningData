@@ -13,9 +13,12 @@ The project contains 3 files<br/>
 Contains the details about this project. <br/>
 
 #### B. codeBook.txt
-Contains the information about all the variables and summaries calculated, along with units, and any other relevant information. <br/>
+Contains the information about all the variables and any other relevant information. <br/>
 
-#### C. run_analysis.R
+#### C. tidy_data_names.txt
+Contains the names of all the variables in the dataset.
+
+#### D. run_analysis.R
 The purpose of this script is to do the following tasks:- 
 
 * Merges the training and the test sets to create one data set.
