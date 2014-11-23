@@ -48,7 +48,7 @@ There are two other variables used in this tidy_data.txt. These are
 activity - A factor variable with 6 levels.  Levels: WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING
 subject - The id of the subjects in experiment. Factor Variable with 30 levels. Levels: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
 
-Transformation : From the raw data. For the variables mentioned above the average value of the variables was taken grouped by activity and subject.
+Transformation/Summary : From the raw data. For the variables mentioned above the average value of the variables was taken grouped by activity and subject.
 
 For each record it is provided:
 ======================================
