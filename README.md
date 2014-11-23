@@ -4,10 +4,12 @@ Project_CleaningData
 Completed as a Part of Getting and Cleaning Data Courses on coursera.org
 
 ### Introduction:
-The project contains 3 files<br/>
+The project contains 5 files<br/>
 1. README.md<br/>
 2. run_analysis.R<br/>
-3. codeBook.txt<br/>
+3. tidy_data_names.txt<br/>
+4. codeBook.txt<br/>
+5. tidy_data.txt
 
 #### A. README.md
 Contains the details about this project. <br/>
@@ -26,6 +28,9 @@ The purpose of this script is to do the following tasks:-
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive variable names. 
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+#### E. tidy_data.txt
+Actual Tidy Data file after all the steps. Can be generated through code as well.
 
 ### Explaination of run_analysis.R
 
