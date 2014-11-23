@@ -127,6 +127,10 @@ dim(data_part4)
 ```{r}
 data_part4 <- data.table(data_part4)
 tidy_data <- data_part4[,lapply(.SD,mean),by=c("activity","subject")]
+
+## Converting subjects to factor variable
+tidy_data$subject <- factor(tidy_data$subject)
+
 names(tidy_data)[1:15]
 dim(tidy_data)
 ```
