@@ -29,7 +29,7 @@ The purpose of this script is to do the following tasks:-
 * Appropriately labels the data set with descriptive variable names. 
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##### Running Instructions :- The file should be in the same folder where "UCI HAR Dataset" is present i.e. ls Main directory should have contain both "UCI HAR Dataset" folder and "run_analysis.R"
+##### Running Instructions :- The file should be in the working directory along with "UCI HAR Dataset" folder i.e. ls Working directory should have contain both "UCI HAR Dataset" folder and "run_analysis.R"
 
 #### E. tidy_data.txt
 Actual Tidy Data file after all the steps. Can be generated through code as well.
